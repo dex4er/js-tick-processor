@@ -1,5 +1,4 @@
 *
-!/*.d.ts
-!/*.js
-!/tsconfig.json
+!/bin/**
+!/lib/**
 .eslintrc.js

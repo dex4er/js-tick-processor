@@ -2,8 +2,10 @@
   "name": "tick-processor",
   "version": "0.1.0",
   "description": "V8 tick processor as Node.js script",
+  "preferGlobal": true,
   "bin": {
-    "tick-processor": "bin/tick-processor"
+    "tick-processor": "./bin/tick-processor",
+    "mac-nm": "./bin/mac-nm"
   },
   "repository": {
     "type": "git",
@@ -16,7 +18,7 @@
     "v8"
   ],
   "author": "Piotr Roszatycki <piotr.roszatycki@gmail.com>",
-  "license": "MIT, BSD-3-Clause",
+  "license": "MIT AND BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/dex4er/js-tick-processor/issues"
   },

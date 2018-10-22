@@ -5,6 +5,8 @@
 
 v8.json
 
+/.tmp
+
 /coverage/
 /node_modules/
 

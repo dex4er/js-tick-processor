@@ -34,12 +34,13 @@
     "eslint-plugin-react": "^7.11.1",
     "eslint-plugin-standard": "^4.0.0",
     "markdownlint-cli": "^0.13.0",
-    "semistandard": "^12.0.1"
+    "semistandard": "^12.0.1",
+    "shelljs": "^0.8.2"
   },
   "scripts": {
     "postpublish": "git tag v$npm_package_version -a -m \"Release v$npm_package_version\" && git push --tags",
     "pretest": "eslint bin/tick-processor && markdownlint *.md",
     "test": "npm run test:script",
-    "test:script": "true"
+    "test:script": "node test"
   }
 }

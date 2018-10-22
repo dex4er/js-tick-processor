@@ -14,7 +14,7 @@ execWithCode(2, 'bin/tick-processor --help');
 
 rm('-f', '*-v8*.log', 'v8.json');
 
-execWithCode(0, 'node --prof --log-all --log-source-code examples/mandelbrot 200 1', { silent: true });
+execWithCode(0, 'node --prof --log-all examples/mandelbrot 200 1', { silent: true });
 execWithCode(0, 'bin/tick-processor --preprocess *-v8*.log', { silent: true }).to('v8.json');
 execWithCode(0, 'bin/tick-processor *-v8*.log');
 

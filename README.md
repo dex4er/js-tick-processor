@@ -12,7 +12,7 @@ This package contains original tick processor from V8 v7.0.276.28.
 
 ## Requirements
 
-This module requires Node >= 6 and `nm` command installed in system.
+This module requires Node >= 8 and `nm` command installed in system.
 
 ## Installation
 

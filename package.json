@@ -23,6 +23,9 @@
     "url": "https://github.com/dex4er/js-tick-processor/issues"
   },
   "homepage": "http://github.com/dex4er/js-tick-processor",
+  "engines": {
+    "node": ">=8.0.0"
+  },
   "dependencies": {},
   "devDependencies": {
     "eslint": "^5.7.0",

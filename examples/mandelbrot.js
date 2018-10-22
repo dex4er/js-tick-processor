@@ -6,7 +6,7 @@
 
    Run:
 
-   node --prof --log-timer-events mandelbrot [size [workers]]
+   node --prof --log-all --log-source-code mandelbrot [size [workers]]
    tick-processor --preprocess *-v8-*.log > v8.json
 */
 

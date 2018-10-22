@@ -17,7 +17,7 @@ This module requires Node >= 8 and `nm` command installed in system.
 ## Installation
 
 ```shell
-npm install tick-processor
+npm install -g tick-processor
 ```
 
 ## Example

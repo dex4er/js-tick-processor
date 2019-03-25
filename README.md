@@ -8,7 +8,8 @@ V8 tick processor that can be run with Node.js
 
 See <https://v8.dev/docs/profile> for details.
 
-This package contains original tick processor from V8 v7.0.276.28.
+This package contains original tick processor from V8 v7.0.276.28 which has been
+used in Node v11.1.0.
 
 ## Requirements
 

@@ -19,3 +19,5 @@ v8.json
 
 /.idea
 /.vscode
+
+.DS_Store

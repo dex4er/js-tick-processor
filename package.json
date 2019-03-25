@@ -1,6 +1,6 @@
 {
   "name": "tick-processor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "V8 tick processor as Node.js script",
   "preferGlobal": true,
   "bin": {
@@ -28,17 +28,17 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^5.7.0",
-    "eslint-config-semistandard": "^12.0.1",
+    "eslint": "^5.15.3",
+    "eslint-config-semistandard": "^13.0.0",
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-standard": "^4.0.0",
-    "markdownlint-cli": "^0.13.0",
-    "semistandard": "^12.0.1",
-    "shelljs": "^0.8.2"
+    "markdownlint-cli": "^0.14.1",
+    "semistandard": "^13.0.1",
+    "shelljs": "^0.8.3"
   },
   "scripts": {
     "postpublish": "git tag v$npm_package_version -a -m \"Release v$npm_package_version\" && git push --tags",

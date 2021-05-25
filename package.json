@@ -37,13 +37,15 @@
     "eslint-plugin-react": "^7.12.4",
     "eslint-plugin-standard": "^4.0.0",
     "markdownlint-cli": "^0.14.1",
+    "mocha": "^8.4.0",
     "semistandard": "^13.0.1",
     "shelljs": "^0.8.3"
   },
   "scripts": {
     "postpublish": "git tag v$npm_package_version -a -m \"Release v$npm_package_version\" && git push --tags",
     "pretest": "eslint bin/tick-processor && markdownlint *.md",
-    "test": "npm run test:script",
-    "test:script": "node test"
+    "test": "npm run test:unit && npm run test:script",
+    "test:script": "node test",
+    "test:unit": "mocha"
   }
 }
